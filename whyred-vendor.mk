@@ -1462,7 +1462,9 @@ PRODUCT_COPY_FILES += \
 #libskia libs
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/lib/libskia.so:system/lib/libskia.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libskia.so:system/lib64/libskia.so
+    vendor/xiaomi/whyred/proprietary/lib64/libskia.so:system/lib64/libskia.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so
 
 
 PRODUCT_PACKAGES += \
