@@ -1459,6 +1459,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdmmservice.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdmodulehdcpsession.so
 
+#libskia libs
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/whyred/proprietary/lib/libskia.so:system/lib/libskia.so \
+    vendor/xiaomi/whyred/proprietary/lib64/libskia.so:system/lib64/libskia.so
+
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
