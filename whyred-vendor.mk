@@ -1466,7 +1466,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/xiaomi/whyred/proprietary/lib/libsoftkeymaster.so:system/lib/libsoftkeymaster.so \
-    vendor/xiaomi/whyred/proprietary/lib64/libsoftkeymaster.so:system/lib64/libsoftkeymaster.so
+    vendor/xiaomi/whyred/proprietary/lib64/libsoftkeymaster.so:system/lib64/libsoftkeymaster.so \
+    vendor/xiaomi/whyred/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so
 
 
 PRODUCT_PACKAGES += \
